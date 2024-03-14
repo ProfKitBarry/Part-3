@@ -13,5 +13,9 @@ public class ARCHER : Villager
         base.Attack();
         Instantiate(arrowPrefeb, spawnPoint.position, spawnPoint.rotation);
     }
+    public override ChesrtType CanOpen()
+    {
+        return ChesrtType.ARCHER;
+    }
 }
 

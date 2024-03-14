@@ -84,4 +84,8 @@ public class Villager : MonoBehaviour
     {
         animator.SetTrigger("Attack");
     }
+    public virtual ChesrtType CanOpen() {
+
+        return ChesrtType.Villager;
+    }
 }
