@@ -83,6 +83,7 @@ public class Villager : MonoBehaviour
     protected virtual void Attack()
     {
         animator.SetTrigger("Attack");
+        
     }
     public virtual ChesrtType CanOpen() {
 

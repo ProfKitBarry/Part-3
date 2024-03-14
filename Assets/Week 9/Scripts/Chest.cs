@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum ChesrtType {Villager, MERCHANT, ARCHER }
+public enum ChesrtType {Villager, MERCHANT, ARCHER, Thieves }
 public class Chest : MonoBehaviour
 {
     public Animator animator;

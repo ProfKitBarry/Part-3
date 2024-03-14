@@ -98,3 +98,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  theif: {fileID: 2857598871113281231}
+  knife: {fileID: 2857598871113281231}
