@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MERCHANT : Villager
+public class Merchant : Villager
 {
-    public override ChesrtType CanOpen()
+    public override ChestType CanOpen()
     {
-        return ChesrtType.MERCHANT;
+        return ChestType.Merchant;
     }
 }

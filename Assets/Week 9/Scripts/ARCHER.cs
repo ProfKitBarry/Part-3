@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ARCHER : Villager
+public class Archer : Villager
 {
-    public GameObject arrowPrefeb;
+    public GameObject arrowPrefab;
     public Transform spawnPoint;
+
     protected override void Attack()
     {
-       
         destination = transform.position;
         base.Attack();
-        Instantiate(arrowPrefeb, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(arrowPrefab, spawnPoint.position, spawnPoint.rotation);
     }
-    public override ChesrtType CanOpen()
+
+    public override ChestType CanOpen()
     {
-        return ChesrtType.ARCHER;
+        return ChestType.Archer;
     }
 }
-
